@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary-color: #007bff; // 
+$secondary-color: #ffffff; // 
+$font-family-serif: "Georgia", serif; // 
+$font-family-sans-serif: "Arial", sans-serif; // 
+
+body {
+  background-color: $secondary-color; // 
+  padding: 20px; 
+  font-family: $font-family-sans-serif; // 
+}
+
+header {
+  background-color: $primary-color; // 
+  color: $secondary-color; // 
+  text-align: center; // 
+  padding: 10px; // 
+}
+
+h1 {
+  font-size: 2.5rem; // 
+  margin-bottom: 1rem; // 
+  font-family: $font-family-serif; // 
+}
+
+.list-group-item {
+  font-size: 1.2rem; // 
+}
+
+@media (max-width: 500px) {
+  main {
+    margin-top: 20px;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}

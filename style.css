@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary-color: #007bff; // Azul
+$secondary-color: #ffffff; // Blanco
+$font-family-serif: "Georgia", serif; // Fuente serif
+$font-family-sans-serif: "Arial", sans-serif; // Fuente sans-serif
+
+body {
+  background-color: $secondary-color; // Fondo blanco
+  padding: 20px; // Relleno de 20px
+  font-family: $font-family-sans-serif; // Fuente sans-serif
+}
+
+header {
+  background-color: $primary-color; // Fondo azul
+  color: $secondary-color; // Color blanco
+  text-align: center; // Alineación central
+  padding: 10px; // Relleno de 10px
+}
+
+h1 {
+  font-size: 2.5rem; // Tamaño de fuente 2.5rem
+  margin-bottom: 1rem; // Margen inferior 1rem
+  font-family: $font-family-serif; // Fuente serif
+}
+
+.list-group-item {
+  font-size: 1.2rem; // Tamaño de fuente 1.2rem
+}
+
+@media (max-width: 500px) {
+  main {
+    margin-top: 20px;
+  }
+
+  img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
